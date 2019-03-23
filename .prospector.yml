@@ -1,0 +1,13 @@
+output-format: grouped
+strictness: veryhigh
+test-warnings: true
+max-line-length: 120
+pep8:
+    full: true
+pep257:
+    disable:
+        - D100
+        - D104
+        - D203
+        - D212
+        - D400

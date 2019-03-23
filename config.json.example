@@ -1,0 +1,46 @@
+{
+  "DEV": {
+    "api" : {
+      "first_api": "https://api-dev.com/first_api",
+      "second_api": "https://api-dev.com/second_api",
+      "third_api": "https://api-dev.com/third_api"
+    },
+    "db": {
+      "host_db": "postgres-dev.consul",
+      "port_db": "5432",
+      "name_db": ADD_DB_NAME,
+      "user_db": ADD_DB_LOGIN
+      "password_db": ADD_DB_PASSWORD
+    }
+  },
+
+  "UAT": {
+    "api" : {
+      "first_api": "https://api-uat.com/first_api",
+      "second_api": "https://api-uat.com/second_api",
+      "third_api": "https://api-uat.com/third_api"
+    },
+    "db": {
+      "host_db": "postgres-uat.consul",
+      "port_db": "5432",
+      "name_db": ADD_DB_NAME,
+      "user_db": ADD_DB_LOGIN
+      "password_db" : ADD_DB_PASSWORD
+    }
+  },
+
+  "LOCALHOST" : {
+    "api" : {
+      "first_api": "https://localhost:3000/first_api",
+      "second_api": "https://localhost:3000/second_api",
+      "third_api": "https://localhost:3000/third_api"
+    },
+    "db": {
+      "host_db": "localhost",
+      "port_db": "5432",
+      "name_db": ADD_DB_NAME,
+      "user_db": ADD_DB_LOGIN
+      "password_db" : ADD_DB_PASSWORD
+    }
+  }
+}
